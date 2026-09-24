@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Period Zero — Timetable Generator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- LOGIN SCREEN -->
+  <div id="login-screen" class="login-screen">
+    <form id="login-form" class="login-card">
+      <span class="brand-mark login-mark">P0</span>
+      <h1>Period Zero</h1>
+      <p class="login-sub">Sign in to manage the timetable.</p>
+      <label>Username<input name="username" autocomplete="username" required /></label>
+      <label>Password<input name="password" type="password" autocomplete="current-password" required /></label>
+      <button type="submit" class="primary-btn login-submit">Sign in</button>
+      <p id="login-error" class="login-error hidden"></p>
+      <div class="demo-accounts">
+        <div class="demo-accounts-title">Demo accounts</div>
+        <button type="button" class="demo-chip" data-user="admin" data-pass="admin123">Admin — admin / admin123</button>
+        <button type="button" class="demo-chip" data-user="hod.cs" data-pass="hod123">HOD — hod.cs / hod123</button>
+        <button type="button" class="demo-chip" data-user="anitha.rao" data-pass="faculty123">Faculty — anitha.rao / faculty123</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="app hidden" id="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark">P0</span>
+        <div>
+          <div class="brand-name">Period Zero</div>
+          <div class="brand-sub">Timetable Engine</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <button class="nav-item active" data-tab="setup">Setup</button>
+        <button class="nav-item" data-tab="generate">Generate</button>
+        <button class="nav-item" data-tab="view">Timetable</button>
+      </nav>
+      <div class="sidebar-foot">
+        <div class="user-box">
+          <div class="user-name" id="user-name">—</div>
+          <div class="user-role" id="user-role">—</div>
+        </div>
+        <button id="reset-btn" class="ghost-btn">Reset demo data</button>
+        <button id="logout-btn" class="ghost-btn logout">Sign out</button>
+      </div>
+    </aside>
+
+    <main class="content">
+
+      <!-- SETUP TAB -->
+      <section id="tab-setup" class="tab active">
+        <header class="tab-head">
+          <h1>Setup</h1>
+          <p>Rooms, faculty, subjects, sections and who teaches what. This is the raw material the solver schedules against.</p>
+        </header>
+
+        <div class="ledger-grid">
+          <div class="card" id="card-rooms">
+            <div class="card-head"><h2>Rooms</h2><span class="count" id="count-rooms">0</span></div>
+            <table class="mini-table" id="table-rooms"></table>
+            <form class="inline-form" id="form-rooms">
+              <input name="name" placeholder="Name (e.g. LH-104)" required />
+              <select name="type"><option value="lecture">lecture</option><option value="lab">lab</option></select>
+              <input name="capacity" type="number" placeholder="Capacity" required />
+              <button type="submit">Add</button>
+            </form>
+          </div>
+
+          <div class="card" id="card-faculty">
+            <div class="card-head"><h2>Faculty</h2><span class="count" id="count-faculty">0</span></div>
+            <table class="mini-table" id="table-faculty"></table>
+            <form class="inline-form" id="form-faculty">
+              <input name="name" placeholder="Name" required />
+              <input name="dept" placeholder="Dept" required />
+              <input name="maxWeeklyLoad" type="number" placeholder="Max hrs/wk" required />
+              <button type="submit">Add</button>
+            </form>
+          </div>
+
+          <div class="card" id="card-subjects">
+            <div class="card-head"><h2>Subjects</h2><span class="count" id="count-subjects">0</span></div>
+            <table class="mini-table" id="table-subjects"></table>
+            <form class="inline-form" id="form-subjects">
+              <input name="name" placeholder="Subject name" required />
+              <input name="dept" placeholder="Dept" required />
+              <input name="weeklyHours" type="number" placeholder="Hrs/wk" required />
+              <select name="roomType"><option value="lecture">lecture</option><option value="lab">lab</option></select>
+              <button type="submit">Add</button>
+            </form>
+          </div>
+
+          <div class="card" id="card-sections">
+            <div class="card-head"><h2>Sections</h2><span class="count" id="count-sections">0</span></div>
+            <table class="mini-table" id="table-sections"></table>
+            <form class="inline-form" id="form-sections">
+              <input name="name" placeholder="Section (e.g. CS-C)" required />
+              <input name="division" placeholder="Division" required />
+              <input name="strength" type="number" placeholder="Strength" required />
+              <button type="submit">Add</button>
+            </form>
+          </div>
+
+          <div class="card wide" id="card-assignments">
+            <div class="card-head"><h2>Subject Assignments</h2><span class="count" id="count-assignments">0</span></div>
+            <p class="card-note">Which faculty teaches which subject to which section — this is what the solver actually schedules.</p>
+            <table class="mini-table" id="table-assignments"></table>
+            <form class="inline-form" id="form-assignments">
+              <select name="subjectId" id="select-subject"></select>
+              <select name="facultyId" id="select-faculty"></select>
+              <select name="sectionId" id="select-section"></select>
+              <button type="submit">Add</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- GENERATE TAB -->
+      <section id="tab-generate" class="tab">
+        <header class="tab-head">
+          <h1>Generate</h1>
+          <p>Runs a constrained search across the week: no faculty, room or section is ever double-booked, and each subject gets its required weekly hours in a matching room type.</p>
+        </header>
+
+        <div class="generate-panel">
+          <button id="generate-btn" class="primary-btn">Run generation</button>
+          <span id="generate-status" class="generate-status"></span>
+        </div>
+
+        <div id="conflict-panel" class="conflict-panel hidden">
+          <h2>Could not place every session</h2>
+          <p class="card-note">The solver still scheduled everything it could. These specific sessions had no valid slot — fix one of the causes below and regenerate.</p>
+          <ul id="conflict-list" class="conflict-list"></ul>
+        </div>
+
+        <div id="run-history">
+          <h2>Generation history</h2>
+          <table class="mini-table" id="table-runs"></table>
+        </div>
+      </section>
+
+      <!-- VIEW TAB -->
+      <section id="tab-view" class="tab">
+        <header class="tab-head">
+          <h1>Timetable</h1>
+          <p>Viewing the most recent run. Publish a draft to make it the section's and faculty's official timetable.</p>
+        </header>
+
+        <div class="view-controls">
+          <select id="run-select"></select>
+          <select id="view-by">
+            <option value="section">By section</option>
+            <option value="faculty">By faculty</option>
+            <option value="room">By room</option>
+          </select>
+          <select id="view-target"></select>
+          <button id="publish-btn" class="primary-btn small">Publish this version</button>
+          <span id="publish-status" class="status-tag"></span>
+        </div>
+
+        <div class="grid-wrap">
+          <table class="timetable-grid" id="timetable-grid"></table>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
