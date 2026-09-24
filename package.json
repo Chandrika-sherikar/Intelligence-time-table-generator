@@ -1,0 +1,20 @@
+{
+  "name": "intelligent-timetable-generator",
+  "version": "1.0.0",
+  "description": "Fullstack demo: constraint-based college timetable generator (Express API + vanilla JS frontend, JSON file store, no native deps).",
+  "main": "server/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
