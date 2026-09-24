@@ -1,0 +1,1768 @@
+{
+  "rooms": [
+    {
+      "id": "room_216df780",
+      "name": "LH-101",
+      "type": "lecture",
+      "capacity": 70
+    },
+    {
+      "id": "room_d27c7d3b",
+      "name": "LH-102",
+      "type": "lecture",
+      "capacity": 70
+    },
+    {
+      "id": "room_25d797b9",
+      "name": "LH-103",
+      "type": "lecture",
+      "capacity": 60
+    },
+    {
+      "id": "room_accee462",
+      "name": "Lab-A (CS)",
+      "type": "lab",
+      "capacity": 35
+    },
+    {
+      "id": "room_be0aeac7",
+      "name": "Lab-B (Electronics)",
+      "type": "lab",
+      "capacity": 30
+    },
+    {
+      "id": "roo_87035f93",
+      "name": "104",
+      "type": "lecture",
+      "capacity": 60
+    }
+  ],
+  "faculty": [
+    {
+      "id": "fac_d62dd20a",
+      "name": "Dr. Anitha Rao",
+      "dept": "CS",
+      "maxWeeklyLoad": 18
+    },
+    {
+      "id": "fac_7f800c70",
+      "name": "Prof. Vikram Shah",
+      "dept": "CS",
+      "maxWeeklyLoad": 18
+    },
+    {
+      "id": "fac_4b817a6f",
+      "name": "Dr. Meera Iyer",
+      "dept": "CS",
+      "maxWeeklyLoad": 16
+    },
+    {
+      "id": "fac_2fa94c58",
+      "name": "Prof. Karan Mehta",
+      "dept": "ECE",
+      "maxWeeklyLoad": 18
+    },
+    {
+      "id": "fac_d2204bc4",
+      "name": "Dr. Sunita Nair",
+      "dept": "ECE",
+      "maxWeeklyLoad": 16
+    }
+  ],
+  "facultyAvailability": [],
+  "subjects": [
+    {
+      "id": "sub_b10c8085",
+      "name": "Data Structures",
+      "dept": "CS",
+      "weeklyHours": 4,
+      "roomType": "lecture"
+    },
+    {
+      "id": "sub_b257f1ee",
+      "name": "DBMS",
+      "dept": "CS",
+      "weeklyHours": 3,
+      "roomType": "lecture"
+    },
+    {
+      "id": "sub_36037a48",
+      "name": "DBMS Lab",
+      "dept": "CS",
+      "weeklyHours": 2,
+      "roomType": "lab"
+    },
+    {
+      "id": "sub_f97f455d",
+      "name": "Operating Systems",
+      "dept": "CS",
+      "weeklyHours": 3,
+      "roomType": "lecture"
+    },
+    {
+      "id": "sub_44b8d6db",
+      "name": "Digital Electronics",
+      "dept": "ECE",
+      "weeklyHours": 3,
+      "roomType": "lecture"
+    },
+    {
+      "id": "sub_dfd6af0e",
+      "name": "Electronics Lab",
+      "dept": "ECE",
+      "weeklyHours": 2,
+      "roomType": "lab"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec_8b77ea53",
+      "name": "CS-A",
+      "division": "CS",
+      "strength": 60
+    },
+    {
+      "id": "sec_526f33a8",
+      "name": "CS-B",
+      "division": "CS",
+      "strength": 58
+    },
+    {
+      "id": "sec_421c6153",
+      "name": "ECE-A",
+      "division": "ECE",
+      "strength": 55
+    }
+  ],
+  "assignments": [
+    {
+      "id": "assign_31eec2f9",
+      "subjectId": "sub_b10c8085",
+      "facultyId": "fac_d62dd20a",
+      "sectionId": "sec_8b77ea53"
+    },
+    {
+      "id": "assign_7462dd8b",
+      "subjectId": "sub_b257f1ee",
+      "facultyId": "fac_7f800c70",
+      "sectionId": "sec_8b77ea53"
+    },
+    {
+      "id": "assign_9d490308",
+      "subjectId": "sub_36037a48",
+      "facultyId": "fac_7f800c70",
+      "sectionId": "sec_8b77ea53"
+    },
+    {
+      "id": "assign_edabb787",
+      "subjectId": "sub_f97f455d",
+      "facultyId": "fac_4b817a6f",
+      "sectionId": "sec_8b77ea53"
+    },
+    {
+      "id": "assign_81d2d145",
+      "subjectId": "sub_b10c8085",
+      "facultyId": "fac_d62dd20a",
+      "sectionId": "sec_526f33a8"
+    },
+    {
+      "id": "assign_d0075044",
+      "subjectId": "sub_b257f1ee",
+      "facultyId": "fac_7f800c70",
+      "sectionId": "sec_526f33a8"
+    },
+    {
+      "id": "assign_e2c95bce",
+      "subjectId": "sub_36037a48",
+      "facultyId": "fac_7f800c70",
+      "sectionId": "sec_526f33a8"
+    },
+    {
+      "id": "assign_ce7237e2",
+      "subjectId": "sub_f97f455d",
+      "facultyId": "fac_4b817a6f",
+      "sectionId": "sec_526f33a8"
+    },
+    {
+      "id": "assign_981a9af8",
+      "subjectId": "sub_44b8d6db",
+      "facultyId": "fac_2fa94c58",
+      "sectionId": "sec_421c6153"
+    },
+    {
+      "id": "assign_b4b38a4f",
+      "subjectId": "sub_dfd6af0e",
+      "facultyId": "fac_d2204bc4",
+      "sectionId": "sec_421c6153"
+    },
+    {
+      "id": "ass_a3a4c946",
+      "subjectId": "sub_b10c8085",
+      "facultyId": "fac_d62dd20a",
+      "sectionId": "sec_8b77ea53"
+    }
+  ],
+  "timetables": [
+    {
+      "id": "tt_3c467c63",
+      "version": 1,
+      "status": "published",
+      "createdAt": "2026-09-24T22:52:46.241Z",
+      "slots": [
+        {
+          "assignmentId": "assign_9d490308",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_b4b38a4f",
+          "subjectId": "sub_dfd6af0e",
+          "facultyId": "fac_d2204bc4",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_accee462",
+          "day": "Mon",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_e2c95bce",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_9d490308",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_accee462",
+          "day": "Fri",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_b4b38a4f",
+          "subjectId": "sub_dfd6af0e",
+          "facultyId": "fac_d2204bc4",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_e2c95bce",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_accee462",
+          "day": "Fri",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 6
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Tue",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 5
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_d27c7d3b",
+          "day": "Tue",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 1
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Mon",
+          "period": 6
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Mon",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Wed",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_d27c7d3b",
+          "day": "Fri",
+          "period": 1
+        }
+      ],
+      "conflicts": [],
+      "attempts": 30
+    },
+    {
+      "id": "tt_fde5b2fc",
+      "version": 2,
+      "status": "draft",
+      "createdAt": "2026-09-24T22:52:51.569Z",
+      "slots": [
+        {
+          "assignmentId": "assign_9d490308",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_b4b38a4f",
+          "subjectId": "sub_dfd6af0e",
+          "facultyId": "fac_d2204bc4",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_accee462",
+          "day": "Mon",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_e2c95bce",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_9d490308",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_accee462",
+          "day": "Fri",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_b4b38a4f",
+          "subjectId": "sub_dfd6af0e",
+          "facultyId": "fac_d2204bc4",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_e2c95bce",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_accee462",
+          "day": "Fri",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 6
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Tue",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 5
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_d27c7d3b",
+          "day": "Tue",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 1
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Mon",
+          "period": 6
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Mon",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Wed",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_d27c7d3b",
+          "day": "Fri",
+          "period": 1
+        }
+      ],
+      "conflicts": [],
+      "attempts": 30
+    },
+    {
+      "id": "tt_70a035da",
+      "version": 3,
+      "status": "draft",
+      "createdAt": "2026-09-24T22:52:57.291Z",
+      "slots": [
+        {
+          "assignmentId": "assign_9d490308",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_b4b38a4f",
+          "subjectId": "sub_dfd6af0e",
+          "facultyId": "fac_d2204bc4",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_accee462",
+          "day": "Mon",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_e2c95bce",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_9d490308",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_accee462",
+          "day": "Fri",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_b4b38a4f",
+          "subjectId": "sub_dfd6af0e",
+          "facultyId": "fac_d2204bc4",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_e2c95bce",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_accee462",
+          "day": "Fri",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 6
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Tue",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 5
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_d27c7d3b",
+          "day": "Tue",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 1
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Mon",
+          "period": 6
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Mon",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Wed",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_d27c7d3b",
+          "day": "Fri",
+          "period": 1
+        }
+      ],
+      "conflicts": [],
+      "attempts": 30
+    },
+    {
+      "id": "tt_b36e0684",
+      "version": 4,
+      "status": "draft",
+      "createdAt": "2026-09-24T22:52:57.611Z",
+      "slots": [
+        {
+          "assignmentId": "assign_9d490308",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_b4b38a4f",
+          "subjectId": "sub_dfd6af0e",
+          "facultyId": "fac_d2204bc4",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_accee462",
+          "day": "Mon",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_e2c95bce",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_9d490308",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_accee462",
+          "day": "Fri",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_b4b38a4f",
+          "subjectId": "sub_dfd6af0e",
+          "facultyId": "fac_d2204bc4",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_e2c95bce",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_accee462",
+          "day": "Fri",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 6
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Tue",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 5
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_d27c7d3b",
+          "day": "Tue",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 1
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Mon",
+          "period": 6
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Mon",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Wed",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_d27c7d3b",
+          "day": "Fri",
+          "period": 1
+        }
+      ],
+      "conflicts": [],
+      "attempts": 30
+    },
+    {
+      "id": "tt_008280f8",
+      "version": 5,
+      "status": "draft",
+      "createdAt": "2026-09-24T22:52:57.709Z",
+      "slots": [
+        {
+          "assignmentId": "assign_9d490308",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_b4b38a4f",
+          "subjectId": "sub_dfd6af0e",
+          "facultyId": "fac_d2204bc4",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_accee462",
+          "day": "Mon",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_e2c95bce",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_9d490308",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_accee462",
+          "day": "Fri",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_b4b38a4f",
+          "subjectId": "sub_dfd6af0e",
+          "facultyId": "fac_d2204bc4",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_accee462",
+          "day": "Thu",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_e2c95bce",
+          "subjectId": "sub_36037a48",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_accee462",
+          "day": "Fri",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 6
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Tue",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 5
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_981a9af8",
+          "subjectId": "sub_44b8d6db",
+          "facultyId": "fac_2fa94c58",
+          "sectionId": "sec_421c6153",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_ce7237e2",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_7462dd8b",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Thu",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_d27c7d3b",
+          "day": "Tue",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_81d2d145",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_216df780",
+          "day": "Wed",
+          "period": 4
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Tue",
+          "period": 1
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Thu",
+          "period": 1
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Mon",
+          "period": 6
+        },
+        {
+          "assignmentId": "ass_a3a4c946",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Mon",
+          "period": 3
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_d27c7d3b",
+          "day": "Wed",
+          "period": 2
+        },
+        {
+          "assignmentId": "assign_31eec2f9",
+          "subjectId": "sub_b10c8085",
+          "facultyId": "fac_d62dd20a",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Mon",
+          "period": 5
+        },
+        {
+          "assignmentId": "assign_edabb787",
+          "subjectId": "sub_f97f455d",
+          "facultyId": "fac_4b817a6f",
+          "sectionId": "sec_8b77ea53",
+          "roomId": "room_216df780",
+          "day": "Fri",
+          "period": 6
+        },
+        {
+          "assignmentId": "assign_d0075044",
+          "subjectId": "sub_b257f1ee",
+          "facultyId": "fac_7f800c70",
+          "sectionId": "sec_526f33a8",
+          "roomId": "room_d27c7d3b",
+          "day": "Fri",
+          "period": 1
+        }
+      ],
+      "conflicts": [],
+      "attempts": 30
+    }
+  ],
+  "users": [
+    {
+      "id": "user_17c6b0e2",
+      "username": "admin",
+      "name": "Admin (Registrar)",
+      "role": "admin",
+      "facultyId": null,
+      "passwordHash": "$2b$10$xOVQGZuoJ9dHHlbaLDQ2IeJG7itcmI3aGhMD3hh5k.ytjLMMay0wm"
+    },
+    {
+      "id": "user_7d624cd0",
+      "username": "hod.cs",
+      "name": "Dr. Priya Krishnan (HOD, CS)",
+      "role": "hod",
+      "facultyId": null,
+      "passwordHash": "$2b$10$2RJcbO68rxUTC72/i8KfGOnI7iqiEKOOACcQrrlBwUFzp7xd8E0Uu"
+    },
+    {
+      "id": "user_3092a8ae",
+      "username": "anitha.rao",
+      "name": "Dr. Anitha Rao",
+      "role": "faculty",
+      "facultyId": "fac_d62dd20a",
+      "passwordHash": "$2b$10$AqvHWhb/H9Yq0K0C6334z.kfNy2FDz9oIuQSwvk/4hFjXJWj6aaUO"
+    }
+  ]
+}
